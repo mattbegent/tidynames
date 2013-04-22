@@ -1,0 +1,19 @@
+{
+  "author": "matt begent",
+  "name": "tidynames",
+  "description": "A command line application to tidy up file names in the current directory",
+  "version": "0.0.2",
+  "repository": {
+    "url": ""
+  },
+  "main": "./lib/main",
+  "bin": {
+    "tidynames": "./bin/tidynames"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
