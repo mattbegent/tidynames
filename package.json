@@ -2,17 +2,22 @@
   "author": "matt begent",
   "name": "tidynames",
   "description": "A command line application to tidy up file names in the current directory",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "repository": {
-    "url": ""
+    "type" : "git",
+    "url": "https://github.com/mattbegent/tidynames.git"
   },
+  "keywords": [
+    "cli",
+    "filenames"
+  ],
   "main": "./lib/main",
   "bin": {
     "tidynames": "./bin/tidynames"
   },
-  "dependencies": {},
-  "devDependencies": {},
-  "optionalDependencies": {},
+  "dependencies": {
+    "commander": "*"
+  },
   "engines": {
     "node": "*"
   }
